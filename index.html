@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Algoritham visualizer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header>
+<div class="">
+    <p>ALOORITHAM VISUALIZER</p>
+</div>
+
+
+    </header>
+
+    <div class="header_right">
+
+            <div id="hbut" class="algos">
+                <button id="but" class="btn btn-outline btn-bold btn-align-right">Selection</button>
+                <button id="but" class="btn btn-outline btn-bold btn-align-right">Insertion</button>
+                <button id="but" class="btn btn-outline btn-bold btn-align-right">Merge</button>
+                <button id="but" class="btn btn-outline btn-bold btn-align-right">Quick</button>
+                <button id="but" class="btn btn-outline btn-bold btn-align-right" style="margin-right: 0px;">Heap</button>
+            </div>
+        </div>
+
+
+<div id="controls" class="row">
+                       <div class="col-lg-4 col-sm-12">
+                        ARRAY SIZE
+                         <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+                       </div>
+                       <div class="col-lg-4 col-sm-12">
+                        SPEED
+                         <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+                       </div>
+                       <div  class="col-lg-4 col-sm-12">
+                         <button id="a_generate" type="button" class="btn btn-outline btn-bold btn-align-right" >NEW ARRAY!</button>
+                       </div>
+
+                     </div>
+
+    <section>
+
+        <div id="Info_Cont1">
+
+
+
+            <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+
+                </div>
+
+                <div class="Pair_Definitions">
+
+                </div>
+
+                <div class="Pair_Definitions">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="array_container">
+
+        </div>
+
+        <div id="Info_Cont2">
+
+            <h3></h3>
+
+            <div class="Complexity_Containers" id="Space_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./scripts/visualizations.js"></script>  <!--This should be loaded after main.js-->
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+
+
+</body>
+<footer>
+  <p>AAKASH HONEY</p>
+</footer>
+
+</html>
